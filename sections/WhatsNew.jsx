@@ -1,10 +1,11 @@
-"use client"
-import { motion } from "framer-motion"
+'use client';
 
-import styles from "../styles"
-import { newFeatures } from "../constants"
-import { staggerContainer, fadeIn, planetVariants } from "../utils/motion"
-import { NewFeatures, TitleText, TypingText } from "../components"
+import { motion } from 'framer-motion';
+
+import styles from '../styles';
+import { newFeatures } from '../constants';
+import { staggerContainer, fadeIn, planetVariants } from '../utils/motion';
+import { NewFeatures, TitleText, TypingText } from '../components';
 
 const WhatsNew = () => (
   <section className={`${styles.paddings} relative z-10`}>
@@ -16,7 +17,7 @@ const WhatsNew = () => (
       className={`${styles.innerWidth} mx-auto flex lg:flex-row flex-col gap-8`}
     >
       <motion.div
-        variants={fadeIn("right", "tween", 0.2, 1)}
+        variants={fadeIn('right', 'tween', 0.2, 1)}
         className="flex-[0.95] flex justify-center flex-col"
       >
         <TypingText title="| Whats new?" />
@@ -29,7 +30,7 @@ const WhatsNew = () => (
       </motion.div>
 
       <motion.div
-        variants={planetVariants("right")}
+        variants={planetVariants('right')}
         className={`flex-1 ${styles.flexCenter}`}
       >
         <img
@@ -40,6 +41,6 @@ const WhatsNew = () => (
       </motion.div>
     </motion.div>
   </section>
-)
+);
 
-export default WhatsNew
+export default WhatsNew;

@@ -1,9 +1,10 @@
-"use client"
-import { motion } from "framer-motion"
+'use client';
 
-import styles from "../styles"
-import { TitleText, TypingText } from "../components"
-import { fadeIn, staggerContainer } from "../utils/motion"
+import { motion } from 'framer-motion';
+
+import styles from '../styles';
+import { TitleText, TypingText } from '../components';
+import { fadeIn, staggerContainer } from '../utils/motion';
 
 const World = () => (
   <section className={`${styles.paddings} relative z-10`}>
@@ -25,7 +26,7 @@ const World = () => (
         textStyles="text-center"
       />
       <motion.div
-        variants={fadeIn("up", "tween", 0.3, 1)}
+        variants={fadeIn('up', 'tween', 0.3, 1)}
         className="relative mt-[68px] flex w-full h-[550px]"
       >
         <img src="/map.png" alt="map" className="w-full h-full object-cover" />
@@ -41,6 +42,6 @@ const World = () => (
       </motion.div>
     </motion.div>
   </section>
-)
+);
 
-export default World
+export default World;

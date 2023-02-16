@@ -1,9 +1,10 @@
-"use client"
-import { motion } from "framer-motion"
-import { socials } from "../constants"
+'use client';
 
-import styles from "../styles"
-import { footerVariants } from "../utils/motion"
+import { motion } from 'framer-motion';
+import { socials } from '../constants';
+
+import styles from '../styles';
+import { footerVariants } from '../utils/motion';
 
 const Footer = () => (
   <motion.footer
@@ -53,6 +54,6 @@ const Footer = () => (
       </div>
     </div>
   </motion.footer>
-)
+);
 
-export default Footer
+export default Footer;
