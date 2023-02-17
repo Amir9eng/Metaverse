@@ -23,6 +23,7 @@ const Explore = () => {
         <TypingText title="| The World" textStyles="text-center" />
         <TitleText
           title={
+            // eslint-disable-next-line react/jsx-wrap-multilines
             <>
               Choose the world you want <br className="md:block hidden" /> to
               explore

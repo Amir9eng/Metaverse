@@ -18,6 +18,7 @@ const World = () => (
       <TypingText title="| People On the World" textStyles="text-center" />
       <TitleText
         title={
+          // eslint-disable-next-line react/jsx-wrap-multilines
           <>
             Track friends around you and invite them to play together in the
             same world
